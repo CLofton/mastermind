@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(grey, black);
+}
+
+.flexer {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.board {
+  background-color: #fff6b2;
+  width: 30%;
+  min-width: 400px;
+  height: 96vh;
+  margin: 2vh auto;
+}
+
+.answer-container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 10%;
+  border: 1px solid black;
+}
+
+.answer-box {
+  width: 70%;
+  height: 100%;
+}
+
+.answer {
+  width: 80%;
+  height: 70%;
+  margin: 0 auto;
+}
+
+.button-container {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  }
+
+.submit-button {
+  width: 80%;
+  height: 80%;
+  background-color: grey;
+}
+
+.text {
+  justify-content: space-around;
+  text-align: center;
+  margin: 0;
+}
+
+.guess-container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 80%;
+  border: 1px solid black;
+}
+
+.guess-row{
+  box-sizing: border-box;
+  height: 10%;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.guess-marbles {
+  height: 98%%;
+  width: 70%;
+  justify-content: space-around;
+}
+
+.guess-marble {
+  width: 20%;
+  height: 80%;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-left: 1px;
+  background-color: white;
+}
+
+.hint-pegs {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hint-peg {
+  height: 40%;
+  width: 40%;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: #bab58f;
+}
+
+.selection-container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 10%;
+  border: 1px solid black;
+}
+
+.selector-outer {
+  width: 16%;
+  height: 98%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.selector-outer:hover {
+  border-color: grey;
+}
+
+.selector-inner {
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.selector-inner:hover {
+  border-color: grey;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.black {
+  background-color: black;
+}
+
+.grey {
+  background-color: grey;
+}

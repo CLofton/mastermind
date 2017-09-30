@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <title>Mastermind</title>
+  </head>
+  <body>
+    <div class="board">
+      <div class="answer-container flexer">
+        <div class="answer-box flex-center">
+          <div class="answer"></div>
+        </div>
+        <div class="button-container flex-center">
+          <button class="submit-button flex-center" id="submit-button">
+            <h3 class="text">Submit</h3>
+          </button>
+        </div>
+      </div>
+      <div class="guess-container">
+        <div class="guess-row flexer">
+          <div class="guess-marbles flex-center">
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+          </div>
+          <div class="hint-pegs flex-center">
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+          </div>
+        </div>
+        <div class="guess-row flexer">
+          <div class="guess-marbles flex-center">
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+          </div>
+          <div class="hint-pegs flex-center">
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+          </div>
+        </div>
+        <div class="guess-row flexer">
+          <div class="guess-marbles flex-center">
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+          </div>
+          <div class="hint-pegs flex-center">
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+          </div>
+        </div>
+        <div class="guess-row flexer">
+          <div class="guess-marbles flex-center">
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+          </div>
+          <div class="hint-pegs flex-center">
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+          </div>
+        </div>
+        <div class="guess-row flexer">
+          <div class="guess-marbles flex-center">
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+          </div>
+          <div class="hint-pegs flex-center">
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+          </div>
+        </div>
+        <div class="guess-row flexer">
+          <div class="guess-marbles flex-center">
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+          </div>
+          <div class="hint-pegs flex-center">
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+          </div>
+        </div>
+        <div class="guess-row flexer">
+          <div class="guess-marbles flex-center">
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+          </div>
+          <div class="hint-pegs flex-center">
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+          </div>
+        </div>
+        <div class="guess-row flexer">
+          <div class="guess-marbles flex-center">
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+          </div>
+          <div class="hint-pegs flex-center">
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+          </div>
+        </div>
+        <div class="guess-row flexer">
+          <div class="guess-marbles flex-center">
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+          </div>
+          <div class="hint-pegs flex-center">
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+          </div>
+        </div>
+        <div class="guess-row flexer">
+          <div class="guess-marbles flex-center">
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+            <div class="guess-marble"></div>
+          </div>
+          <div class="hint-pegs flex-center">
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+            <div class="hint-peg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="selection-container flexer">
+        <div class="selector-outer flex-center">
+          <div class="selector-inner red">
+
+          </div>
+        </div>
+        <div class="selector-outer flex-center">
+          <div class="selector-inner blue">
+
+          </div>
+        </div>
+        <div class="selector-outer flex-center">
+          <div class="selector-inner green">
+
+          </div>
+        </div><div class="selector-outer flex-center">
+          <div class="selector-inner yellow">
+
+          </div>
+        </div>
+        <div class="selector-outer flex-center">
+          <div class="selector-inner black">
+
+          </div>
+        </div>
+        <div class="selector-outer flex-center">
+          <div class="selector-inner grey">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="app.js">
+
+    </script>
+  </body>
+</html>
